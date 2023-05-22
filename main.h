@@ -25,7 +25,7 @@ int print_env(void);
 int _atoi(char *s);
 int _isdigit(int c);
 int exitfunc(char **array, char *av[], char *line, int cnt, int ret_stat);
-int _mycd(info_t *);
+int _mycd(ino_t *);
 void manage_signal(int num_s __attribute__((unused)));
 void error_print(char **array, char *av[], int cnt, int num);
 int print_int(int n);
